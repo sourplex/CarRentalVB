@@ -19,7 +19,6 @@ Public Class vehicle
         Dim ds1 As New DataSet()
 
         adpt1.Fill(ds1, "vehicle")
-        DataGridView2.DataSource = ds1.Tables(0)
 
     End Sub
 
@@ -43,11 +42,11 @@ Public Class vehicle
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         addvehiclecreditcard.Show()
 
     End Sub
@@ -62,9 +61,9 @@ Public Class vehicle
 
     End Sub
 
-   
 
-   
+
+
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         Dim str As String = "Data source = localhost; user id= root;password=;database= cr_user;"
@@ -84,24 +83,22 @@ Public Class vehicle
         Dim ds1 As New DataSet()
 
         adpt1.Fill(ds1, "vehicle")
-        DataGridView2.DataSource = ds1.Tables(0)
-        DataGridView2.Refresh()
 
 
     End Sub
 
-    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+    Private Sub Button10_Click(sender As Object, e As EventArgs)
         Dim str As String = "Data source = localhost; user id= root;password=;database= cr_user;"
         Dim con As New MySqlConnection(str)
         Dim com As String = "select * from cr_vehicle into outfile 'G:/CarRental/CarRental/backup/vehiclelists.txt'  FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '''' LINES TERMINATED BY '\n' "
         Dim adpt As New MySqlDataAdapter(com, con)
         Dim ds As New DataSet()
-        
+
         adpt.Fill(ds, "ba")
         MsgBox("Backup Successful!")
     End Sub
 
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+    Private Sub Button11_Click(sender As Object, e As EventArgs)
         Dim str As String = "Data source = localhost; user id= root;password=;database= cr_user;"
         Dim con As New MySqlConnection(str)
         Dim com As String = "Load data infile 'G:/CarRental/CarRental/backup/vehiclelists.txt' into cr_vehicle FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '''' LINES TERMINATED BY '\n' "
@@ -112,7 +109,7 @@ Public Class vehicle
         MsgBox("Backup Successful!")
     End Sub
 
-    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+    Private Sub Button12_Click(sender As Object, e As EventArgs)
 
     End Sub
 

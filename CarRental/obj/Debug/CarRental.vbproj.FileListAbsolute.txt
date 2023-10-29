@@ -222,3 +222,42 @@ C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.CoreCompi
 C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.exe
 C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.xml
 C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.pdb
+C:\New folder\carrental\CarRentalVB\CarRental\bin\Debug\CarRental.exe.config
+C:\New folder\carrental\CarRentalVB\CarRental\bin\Debug\CarRental.exe
+C:\New folder\carrental\CarRentalVB\CarRental\bin\Debug\CarRental.pdb
+C:\New folder\carrental\CarRentalVB\CarRental\bin\Debug\CarRental.xml
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.AssemblyReference.cache
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.about.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.addnewclient.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.addnewreservation.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.addnewvehicle.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.addvehiclecreditcard.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.backupform.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.clientreservation.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.clientslist.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.clientsmain.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.deleteclient.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.deleteform.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.editclient.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.editform.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.endreservation.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.Form1.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.invoiceform.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.login.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.main.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.Resources.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.myaccount.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.register.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.registernew.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.rentlist.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.reservation.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.searchclientform.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.searchform.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.searchreservation.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.vehicle.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.vehicleslist.resources
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.GenerateResource.cache
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.CoreCompileInputs.cache
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.exe
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.xml
+C:\New folder\carrental\CarRentalVB\CarRental\obj\Debug\CarRental.pdb
