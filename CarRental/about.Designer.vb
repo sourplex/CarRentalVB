@@ -35,8 +35,8 @@ Partial Class about
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Cooper Black", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label1.Location = New System.Drawing.Point(137, 49)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Label1.Location = New System.Drawing.Point(222, 51)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(254, 24)
         Me.Label1.TabIndex = 0
@@ -57,7 +57,7 @@ Partial Class about
         Me.TextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.TextBox1.Enabled = False
         Me.TextBox1.Font = New System.Drawing.Font("Cooper Black", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(72, 110)
+        Me.TextBox1.Location = New System.Drawing.Point(158, 112)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(368, 133)
@@ -69,7 +69,7 @@ Partial Class about
         '
         Me.TextBox2.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.TextBox2.Enabled = False
-        Me.TextBox2.Location = New System.Drawing.Point(171, 299)
+        Me.TextBox2.Location = New System.Drawing.Point(243, 299)
         Me.TextBox2.Multiline = True
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(197, 56)
@@ -80,7 +80,8 @@ Partial Class about
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(237, 255)
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(311, 259)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 15)
         Me.Label3.TabIndex = 4
@@ -88,11 +89,11 @@ Partial Class about
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Button1.BackColor = System.Drawing.Color.ForestGreen
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Button1.Image = Global.CarRental.My.Resources.Resources.accept32
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.Location = New System.Drawing.Point(171, 373)
+        Me.Button1.Location = New System.Drawing.Point(240, 373)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(197, 56)
         Me.Button1.TabIndex = 5
@@ -105,9 +106,9 @@ Partial Class about
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.BackgroundImage = Global.CarRental.My.Resources.Resources.Bertone_Dream_Car_Wallpaper_HDTV
+        Me.BackgroundImage = Global.CarRental.My.Resources.Resources.startupimage
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(534, 441)
+        Me.ClientSize = New System.Drawing.Size(665, 451)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox2)

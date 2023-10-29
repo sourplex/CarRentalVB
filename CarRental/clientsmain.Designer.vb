@@ -34,7 +34,7 @@ Partial Class clientsmain
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Button2.Image = Global.CarRental.My.Resources.Resources.m
-        Me.Button2.Location = New System.Drawing.Point(519, 146)
+        Me.Button2.Location = New System.Drawing.Point(458, 104)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(147, 143)
         Me.Button2.TabIndex = 33
@@ -46,7 +46,7 @@ Partial Class clientsmain
         Me.Button8.Font = New System.Drawing.Font("Cooper Black", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.Image = Global.CarRental.My.Resources.Resources.Door
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button8.Location = New System.Drawing.Point(173, 176)
+        Me.Button8.Location = New System.Drawing.Point(228, 188)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(128, 127)
         Me.Button8.TabIndex = 32
@@ -60,7 +60,7 @@ Partial Class clientsmain
         Me.Button7.Font = New System.Drawing.Font("Cooper Black", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.Image = Global.CarRental.My.Resources.Resources._Class
         Me.Button7.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button7.Location = New System.Drawing.Point(173, 40)
+        Me.Button7.Location = New System.Drawing.Point(228, 30)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(128, 130)
         Me.Button7.TabIndex = 31
@@ -74,7 +74,7 @@ Partial Class clientsmain
         Me.Button3.Font = New System.Drawing.Font("Cooper Black", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Image = Global.CarRental.My.Resources.Resources.rent_a_car2
         Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.Location = New System.Drawing.Point(9, 176)
+        Me.Button3.Location = New System.Drawing.Point(57, 188)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(140, 130)
         Me.Button3.TabIndex = 27
@@ -88,7 +88,7 @@ Partial Class clientsmain
         Me.Button1.Font = New System.Drawing.Font("Cooper Black", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Image = Global.CarRental.My.Resources.Resources.cars
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.Location = New System.Drawing.Point(12, 40)
+        Me.Button1.Location = New System.Drawing.Point(57, 30)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(137, 130)
         Me.Button1.TabIndex = 25
@@ -100,7 +100,7 @@ Partial Class clientsmain
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Cooper Black", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(526, 104)
+        Me.Label1.Location = New System.Drawing.Point(468, 67)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(126, 21)
         Me.Label1.TabIndex = 34
@@ -110,7 +110,7 @@ Partial Class clientsmain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(718, 364)
+        Me.ClientSize = New System.Drawing.Size(669, 364)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button8)
@@ -120,7 +120,6 @@ Partial Class clientsmain
         Me.Name = "clientsmain"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "clientsmain"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

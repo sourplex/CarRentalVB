@@ -62,7 +62,7 @@ Public Class clientslist
 
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) 
         Dim str As String = "Data source = localhost; user id= root;password=;database= cr_user;"
         Dim con As New MySqlConnection(str)
         Dim com As String = "select * from clients into outfile 'C:/Users/dianne sunga/Desktop/backup/bu.txt' FIELDS TERMINATED BY ';' ENCLOSED BY '''' LINES TERMINATED BY '\r\n'; "

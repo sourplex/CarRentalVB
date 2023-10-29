@@ -32,13 +32,9 @@ Partial Class clientslist
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -170,35 +166,6 @@ Partial Class clientslist
         Me.Button11.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button11.UseVisualStyleBackColor = False
         '
-        'Button10
-        '
-        Me.Button10.BackColor = System.Drawing.Color.LightCyan
-        Me.Button10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button10.Image = Global.CarRental.My.Resources.Resources.credit_card
-        Me.Button10.Location = New System.Drawing.Point(775, 12)
-        Me.Button10.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(68, 65)
-        Me.Button10.TabIndex = 11
-        Me.Button10.Text = "Credit Cards"
-        Me.Button10.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button10.UseVisualStyleBackColor = False
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.LightCyan
-        Me.Button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Button9.Image = Global.CarRental.My.Resources.Resources.Credit_Card1
-        Me.Button9.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button9.Location = New System.Drawing.Point(669, 12)
-        Me.Button9.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(76, 65)
-        Me.Button9.TabIndex = 10
-        Me.Button9.Text = "Insurance Cards"
-        Me.Button9.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.Button9.UseVisualStyleBackColor = False
-        '
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.LightCyan
@@ -241,34 +208,6 @@ Partial Class clientslist
         Me.Button21.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button21.UseVisualStyleBackColor = False
         '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.LightCyan
-        Me.Button3.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Image = Global.CarRental.My.Resources.Resources.USB_drive___dark
-        Me.Button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.Location = New System.Drawing.Point(483, 562)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(93, 65)
-        Me.Button3.TabIndex = 23
-        Me.Button3.Text = "RESTORE"
-        Me.Button3.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.LightCyan
-        Me.Button5.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Image = Global.CarRental.My.Resources.Resources.USB_drive1
-        Me.Button5.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.Location = New System.Drawing.Point(369, 562)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(90, 66)
-        Me.Button5.TabIndex = 22
-        Me.Button5.Text = "BACKUP"
-        Me.Button5.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button5.UseVisualStyleBackColor = False
-        '
         'clientslist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 15.0!)
@@ -277,8 +216,6 @@ Partial Class clientslist
         Me.ClientSize = New System.Drawing.Size(1259, 649)
         Me.Controls.Add(Me.Button22)
         Me.Controls.Add(Me.Button21)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -289,8 +226,6 @@ Partial Class clientslist
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button4)
         Me.Font = New System.Drawing.Font("Cooper Black", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
@@ -305,8 +240,6 @@ Partial Class clientslist
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Button12 As System.Windows.Forms.Button
     Friend WithEvents Button15 As System.Windows.Forms.Button
@@ -316,6 +249,4 @@ Partial Class clientslist
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button22 As System.Windows.Forms.Button
     Friend WithEvents Button21 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
 End Class

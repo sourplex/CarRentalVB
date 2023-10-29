@@ -49,7 +49,7 @@ Partial Class clientreservation
         Me.Button2.Image = Global.CarRental.My.Resources.Resources.peugeot_206_grey1
         Me.Button2.Location = New System.Drawing.Point(234, 27)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(193, 91)
+        Me.Button2.Size = New System.Drawing.Size(195, 91)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "End Reservation"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -71,7 +71,7 @@ Partial Class clientreservation
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(543, 144)
+        Me.ClientSize = New System.Drawing.Size(545, 144)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)

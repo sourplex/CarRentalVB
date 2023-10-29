@@ -25,27 +25,19 @@ Partial Class addnewclient
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.txtname = New System.Windows.Forms.TextBox()
         Me.txtlname = New System.Windows.Forms.TextBox()
-        Me.txtcompany = New System.Windows.Forms.TextBox()
         Me.txtpob = New System.Windows.Forms.TextBox()
         Me.txtlocaladd = New System.Windows.Forms.TextBox()
-        Me.txthomeadd = New System.Windows.Forms.TextBox()
         Me.txtlocalphone = New System.Windows.Forms.TextBox()
         Me.txtemail = New System.Windows.Forms.TextBox()
-        Me.txthomephone = New System.Windows.Forms.TextBox()
         Me.txtlicense = New System.Windows.Forms.TextBox()
-        Me.txtpassport = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
@@ -58,6 +50,14 @@ Partial Class addnewclient
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label15 = New System.Windows.Forms.Label()
         Me.txtid = New System.Windows.Forms.TextBox()
+        Me.txtcompany = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.txthomeadd = New System.Windows.Forms.TextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.txtpassport = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.txthomephone = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -82,17 +82,6 @@ Partial Class addnewclient
         Me.Label2.TabIndex = 0
         Me.Label2.Text = "Last  Name:"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label3.Location = New System.Drawing.Point(21, 109)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(132, 17)
-        Me.Label3.TabIndex = 0
-        Me.Label3.Text = "Company Name:"
         '
         'Label4
         '
@@ -127,17 +116,6 @@ Partial Class addnewclient
         Me.Label6.TabIndex = 0
         Me.Label6.Text = "Local Address:"
         '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label7.Location = New System.Drawing.Point(366, 195)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(122, 17)
-        Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Home Address:"
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
@@ -149,17 +127,6 @@ Partial Class addnewclient
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "Local Phone:"
         '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.Color.Transparent
-        Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label9.Location = New System.Drawing.Point(366, 248)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(107, 17)
-        Me.Label9.TabIndex = 0
-        Me.Label9.Text = "Home Phone:"
-        '
         'Label10
         '
         Me.Label10.AutoSize = True
@@ -170,17 +137,6 @@ Partial Class addnewclient
         Me.Label10.Size = New System.Drawing.Size(56, 17)
         Me.Label10.TabIndex = 0
         Me.Label10.Text = "Email:"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.Color.Transparent
-        Me.Label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label11.Location = New System.Drawing.Point(366, 306)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(102, 17)
-        Me.Label11.TabIndex = 0
-        Me.Label11.Text = "Passport ID:"
         '
         'Label12
         '
@@ -209,14 +165,6 @@ Partial Class addnewclient
         Me.txtlname.Size = New System.Drawing.Size(187, 25)
         Me.txtlname.TabIndex = 1
         '
-        'txtcompany
-        '
-        Me.txtcompany.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtcompany.Location = New System.Drawing.Point(156, 106)
-        Me.txtcompany.Name = "txtcompany"
-        Me.txtcompany.Size = New System.Drawing.Size(187, 25)
-        Me.txtcompany.TabIndex = 1
-        '
         'txtpob
         '
         Me.txtpob.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
@@ -232,14 +180,6 @@ Partial Class addnewclient
         Me.txtlocaladd.Name = "txtlocaladd"
         Me.txtlocaladd.Size = New System.Drawing.Size(187, 25)
         Me.txtlocaladd.TabIndex = 1
-        '
-        'txthomeadd
-        '
-        Me.txthomeadd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txthomeadd.Location = New System.Drawing.Point(485, 192)
-        Me.txthomeadd.Name = "txthomeadd"
-        Me.txthomeadd.Size = New System.Drawing.Size(187, 25)
-        Me.txthomeadd.TabIndex = 1
         '
         'txtlocalphone
         '
@@ -257,14 +197,6 @@ Partial Class addnewclient
         Me.txtemail.Size = New System.Drawing.Size(187, 25)
         Me.txtemail.TabIndex = 1
         '
-        'txthomephone
-        '
-        Me.txthomephone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txthomephone.Location = New System.Drawing.Point(485, 245)
-        Me.txthomephone.Name = "txthomephone"
-        Me.txthomephone.Size = New System.Drawing.Size(187, 25)
-        Me.txthomephone.TabIndex = 1
-        '
         'txtlicense
         '
         Me.txtlicense.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
@@ -272,14 +204,6 @@ Partial Class addnewclient
         Me.txtlicense.Name = "txtlicense"
         Me.txtlicense.Size = New System.Drawing.Size(187, 25)
         Me.txtlicense.TabIndex = 1
-        '
-        'txtpassport
-        '
-        Me.txtpassport.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtpassport.Location = New System.Drawing.Point(485, 303)
-        Me.txtpassport.Name = "txtpassport"
-        Me.txtpassport.Size = New System.Drawing.Size(187, 25)
-        Me.txtpassport.TabIndex = 1
         '
         'Button1
         '
@@ -392,6 +316,82 @@ Partial Class addnewclient
         Me.txtid.Size = New System.Drawing.Size(187, 25)
         Me.txtid.TabIndex = 1
         '
+        'txtcompany
+        '
+        Me.txtcompany.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txtcompany.Location = New System.Drawing.Point(156, 106)
+        Me.txtcompany.Name = "txtcompany"
+        Me.txtcompany.Size = New System.Drawing.Size(187, 25)
+        Me.txtcompany.TabIndex = 1
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label3.Location = New System.Drawing.Point(21, 109)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(132, 17)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Company Name:"
+        '
+        'txthomeadd
+        '
+        Me.txthomeadd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txthomeadd.Location = New System.Drawing.Point(485, 192)
+        Me.txthomeadd.Name = "txthomeadd"
+        Me.txthomeadd.Size = New System.Drawing.Size(187, 25)
+        Me.txthomeadd.TabIndex = 1
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label7.Location = New System.Drawing.Point(366, 195)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(122, 17)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "Home Address:"
+        '
+        'txtpassport
+        '
+        Me.txtpassport.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txtpassport.Location = New System.Drawing.Point(485, 309)
+        Me.txtpassport.Name = "txtpassport"
+        Me.txtpassport.Size = New System.Drawing.Size(187, 25)
+        Me.txtpassport.TabIndex = 1
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label11.Location = New System.Drawing.Point(366, 312)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(102, 17)
+        Me.Label11.TabIndex = 0
+        Me.Label11.Text = "Passport ID:"
+        '
+        'txthomephone
+        '
+        Me.txthomephone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.txthomephone.Location = New System.Drawing.Point(485, 256)
+        Me.txthomephone.Name = "txthomephone"
+        Me.txthomephone.Size = New System.Drawing.Size(187, 25)
+        Me.txthomephone.TabIndex = 1
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label9.Location = New System.Drawing.Point(366, 259)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(107, 17)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "Home Phone:"
+        '
         'addnewclient
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 17.0!)
@@ -444,27 +444,19 @@ Partial Class addnewclient
     End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
-    Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents txtname As System.Windows.Forms.TextBox
     Friend WithEvents txtlname As System.Windows.Forms.TextBox
-    Friend WithEvents txtcompany As System.Windows.Forms.TextBox
     Friend WithEvents txtpob As System.Windows.Forms.TextBox
     Friend WithEvents txtlocaladd As System.Windows.Forms.TextBox
-    Friend WithEvents txthomeadd As System.Windows.Forms.TextBox
     Friend WithEvents txtlocalphone As System.Windows.Forms.TextBox
     Friend WithEvents txtemail As System.Windows.Forms.TextBox
-    Friend WithEvents txthomephone As System.Windows.Forms.TextBox
     Friend WithEvents txtlicense As System.Windows.Forms.TextBox
-    Friend WithEvents txtpassport As System.Windows.Forms.TextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
@@ -477,4 +469,12 @@ Partial Class addnewclient
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents txtid As System.Windows.Forms.TextBox
+    Friend WithEvents txtcompany As TextBox
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txthomeadd As TextBox
+    Friend WithEvents Label7 As Label
+    Friend WithEvents txtpassport As TextBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents txthomephone As TextBox
+    Friend WithEvents Label9 As Label
 End Class
