@@ -183,3 +183,42 @@ C:\New folder\carrental\CarRental\CarRental\obj\Debug\CarRental.vbproj.CoreCompi
 C:\New folder\carrental\CarRental\CarRental\obj\Debug\CarRental.exe
 C:\New folder\carrental\CarRental\CarRental\obj\Debug\CarRental.xml
 C:\New folder\carrental\CarRental\CarRental\obj\Debug\CarRental.pdb
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\bin\Debug\CarRental.exe.config
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\bin\Debug\CarRental.exe
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\bin\Debug\CarRental.pdb
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\bin\Debug\CarRental.xml
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.AssemblyReference.cache
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.about.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.addnewclient.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.addnewreservation.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.addnewvehicle.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.addvehiclecreditcard.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.backupform.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.clientreservation.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.clientslist.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.clientsmain.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.deleteclient.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.deleteform.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.editclient.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.editform.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.endreservation.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.Form1.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.invoiceform.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.login.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.main.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.Resources.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.myaccount.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.register.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.registernew.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.rentlist.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.reservation.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.searchclientform.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.searchform.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.searchreservation.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.vehicle.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.vehicleslist.resources
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.GenerateResource.cache
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.vbproj.CoreCompileInputs.cache
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.exe
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.xml
+C:\wamp64\wamp642\www\CarRentalVB\CarRental\obj\Debug\CarRental.pdb

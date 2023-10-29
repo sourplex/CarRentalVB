@@ -62,8 +62,7 @@ Partial Class about
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(368, 133)
         Me.TextBox1.TabIndex = 2
-        Me.TextBox1.Text = "A projet developed by the IT students of Don Honorio Ventura Technological State " & _
-    "University "
+        Me.TextBox1.Text = "A projet developed by the CS students of Universiti teknologi Malaysia KL"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox2
@@ -75,13 +74,13 @@ Partial Class about
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(197, 56)
         Me.TextBox2.TabIndex = 3
-        Me.TextBox2.Text = " Guevarra, Julius N. Maglasang, John Rowin A. Zablan, Ryan Jay L. "
+        Me.TextBox2.Text = " Syed Amir Imran, Daniel Hakim, Shane Wesley Wilbert"
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(238, 272)
+        Me.Label3.Location = New System.Drawing.Point(237, 255)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 15)
         Me.Label3.TabIndex = 4
