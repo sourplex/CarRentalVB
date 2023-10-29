@@ -112,9 +112,9 @@ Partial Class addnewclient
         Me.Label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label6.Location = New System.Drawing.Point(18, 206)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(120, 17)
+        Me.Label6.Size = New System.Drawing.Size(122, 17)
         Me.Label6.TabIndex = 0
-        Me.Label6.Text = "Local Address:"
+        Me.Label6.Text = "Home/Unit No:"
         '
         'Label8
         '
@@ -123,9 +123,9 @@ Partial Class addnewclient
         Me.Label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label8.Location = New System.Drawing.Point(18, 259)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(105, 17)
+        Me.Label8.Size = New System.Drawing.Size(114, 17)
         Me.Label8.TabIndex = 0
-        Me.Label8.Text = "Local Phone:"
+        Me.Label8.Text = "Cellphone No:"
         '
         'Label10
         '
@@ -160,7 +160,7 @@ Partial Class addnewclient
         'txtlname
         '
         Me.txtlname.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtlname.Location = New System.Drawing.Point(485, 49)
+        Me.txtlname.Location = New System.Drawing.Point(494, 49)
         Me.txtlname.Name = "txtlname"
         Me.txtlname.Size = New System.Drawing.Size(187, 25)
         Me.txtlname.TabIndex = 1
@@ -338,7 +338,7 @@ Partial Class addnewclient
         'txthomeadd
         '
         Me.txthomeadd.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txthomeadd.Location = New System.Drawing.Point(485, 192)
+        Me.txthomeadd.Location = New System.Drawing.Point(494, 203)
         Me.txthomeadd.Name = "txthomeadd"
         Me.txthomeadd.Size = New System.Drawing.Size(187, 25)
         Me.txthomeadd.TabIndex = 1
@@ -348,16 +348,16 @@ Partial Class addnewclient
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label7.Location = New System.Drawing.Point(366, 195)
+        Me.Label7.Location = New System.Drawing.Point(366, 206)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(122, 17)
+        Me.Label7.Size = New System.Drawing.Size(75, 17)
         Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Home Address:"
+        Me.Label7.Text = "Address:"
         '
         'txtpassport
         '
         Me.txtpassport.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txtpassport.Location = New System.Drawing.Point(485, 309)
+        Me.txtpassport.Location = New System.Drawing.Point(494, 309)
         Me.txtpassport.Name = "txtpassport"
         Me.txtpassport.Size = New System.Drawing.Size(187, 25)
         Me.txtpassport.TabIndex = 1
@@ -376,7 +376,7 @@ Partial Class addnewclient
         'txthomephone
         '
         Me.txthomephone.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.txthomephone.Location = New System.Drawing.Point(485, 256)
+        Me.txthomephone.Location = New System.Drawing.Point(494, 256)
         Me.txthomephone.Name = "txthomephone"
         Me.txthomephone.Size = New System.Drawing.Size(187, 25)
         Me.txthomephone.TabIndex = 1

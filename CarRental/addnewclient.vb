@@ -4,7 +4,7 @@ Public Class addnewclient
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim str As String = "data source=localhost; user id=root; password=;database=cr_user"
         Dim con As New MySqlConnection(str)
-        Dim com As String = "insert into clients(client_id,lname,fname,company_name,dob,pob,local_address,home_address,local_phone,home_phone,email,passport_id,license_id) values ('" & txtid.Text & "','" & txtlname.Text & "', '" & txtname.Text & "','" & txtcompany.Text & "','" & ComboBox2.SelectedItem & "  " & ComboBox1.SelectedItem & "  " & TextBox1.Text & "','" & txtpob.Text & "','" & txtlocaladd.Text & "','" & txthomeadd.Text & "', '" & txtlocalphone.Text & "', '" & txthomephone.Text & "','" & txtemail.Text & "','" & txtpassport.Text & "', '" & txtlicense.Text & "') "
+        Dim com As String = "insert into clients(client_id,lname,fname,dob,pob,local_address,home_address,local_phone,email,license_id) values ('" & txtid.Text & "','" & txtlname.Text & "', '" & txtname.Text & "','" & txtcompany.Text & "','" & ComboBox2.SelectedItem & "  " & ComboBox1.SelectedItem & "  " & TextBox1.Text & "','" & txtpob.Text & "','" & txtlocaladd.Text & "','" & txthomeadd.Text & "', '" & txtlocalphone.Text & "', '" & txthomephone.Text & "','" & txtemail.Text & "','" & txtpassport.Text & "', '" & txtlicense.Text & "') "
         con.Open()
         Dim cmd As New MySqlCommand(com, con)
 
