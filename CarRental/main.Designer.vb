@@ -288,7 +288,7 @@ Partial Class main
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(889, 478)
+        Me.ClientSize = New System.Drawing.Size(889, 500)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
@@ -304,7 +304,6 @@ Partial Class main
         Me.Name = "main"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "main"
-        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
