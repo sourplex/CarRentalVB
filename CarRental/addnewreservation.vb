@@ -69,79 +69,87 @@ Public Class addnewreservation
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        
-
-
-
-
-
         If TextBox6.Text = String.Empty Then
             MsgBox("Please input Your ID")
         Else
             Dim str As String = "data source=localhost; user id=root; password=;database=cr_user"
             Dim con As New MySqlConnection(str)
             Dim com As String = "insert into rentlist(client_id,model,color,license_no,engine,day,amount,vehicle_id)values ('" & TextBox6.Text & "', '" & TextBox2.Text & "', '" & ComboBox1.Text & "','" & TextBox3.Text & "','" & TextBox5.Text & "','" & TextBox4.Text & "','" & TextBox7.Text & "','" & TextBox8.Text & "') "
-           
 
-           
+            'Send Receipt Data to Database
+            Dim currentDate As Date = DateTime.Today
+            Dim datePart As String = currentDate.ToString("yyyyMMdd")
+
+            ' Generate a unique identifier (you can use a GUID or other methods)
+            Dim uniqueID As String = Guid.NewGuid().ToString("N")
+
+            ' Combine the date and unique ID to create the invoice ID
+            Dim invoiceID As String = datePart & uniqueID
+
+            Dim com3 As String = "insert into invoices(invoice_id,invoice_date,reservation_id)values('" & invoiceID & "', '" & currentDate & "', '" & uniqueID & "')"
+
+
 
             If Val(TextBox6.Text) = Val(login.lblid.Text) Then
 
 
 
                 con.Open()
-               
-                
 
 
 
 
 
-                    Dim ds As New DataSet
-                    Dim com2 As String = "select * from rentlist where client_id = '" & TextBox6.Text & "' "
-                    Dim adpt As New MySqlDataAdapter(com2, con)
-                    If adpt.Fill(ds, "ha") = False Then
-                        Dim cmd As New MySqlCommand(com, con)
+
+
+                Dim ds As New DataSet
+                Dim com2 As String = "select * from rentlist where client_id = '" & TextBox6.Text & "' "
+                Dim adpt As New MySqlDataAdapter(com2, con)
+                If adpt.Fill(ds, "ha") = False Then
+                    Dim cmd As New MySqlCommand(com, con)
+                    Dim cmd2 As New MySqlCommand(com3, con)
+                    cmd2.ExecuteNonQuery()
                     Dim com1 As String = "update cr_vehicle set quantity = quantity - 1 where vehicle_id = '" & TextBox1.Text & "' "
                     Dim cmd1 As New MySqlCommand(com1, con)
-                        Dim x As String = cmd.ExecuteNonQuery
-                        If x >= 1 Then
-                            Timer1.Enabled = True
-                        Else
-                            MsgBox("Renting Failed!")
-                        End If
+                    Dim x As String = cmd.ExecuteNonQuery
+
+                    If x >= 1 Then
+                        Timer1.Enabled = True
                     Else
-                        MsgBox("You have already rent a car. Please make sure you have returned it first!")
-                        TextBox1.Text = " "
-                        TextBox2.Text = " "
-                        TextBox3.Text = " "
-                        TextBox4.Text = " "
-                        TextBox5.Text = " "
-                        TextBox6.Text = " "
-                        TextBox7.Text = " "
-                        TextBox8.Text = " "
-                        ComboBox1.Text = " "
-
+                        MsgBox("Renting Failed!")
                     End If
-
-
-                    con.Close()
-
-
-
-
-
                 Else
-                    MsgBox("You have entered an Incorret Client ID!")
+                    MsgBox("You have already rent a car. Please make sure you have returned it first!")
+                    TextBox1.Text = " "
+                    TextBox2.Text = " "
+                    TextBox3.Text = " "
+                    TextBox4.Text = " "
+                    TextBox5.Text = " "
+                    TextBox6.Text = " "
+                    TextBox7.Text = " "
+                    TextBox8.Text = " "
+                    ComboBox1.Text = " "
+
                 End If
 
+
+                con.Close()
+
+
+
+
+
+            Else
+                MsgBox("You have entered an Incorret Client ID!")
             End If
+
+        End If
 
 
 
     End Sub
 
-   
+
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         ProgressBar1.Increment(+5)
