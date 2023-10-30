@@ -18,7 +18,7 @@ Public Class main
 
     End Sub
 
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
         backupform.Show()
 
     End Sub
@@ -60,7 +60,7 @@ Public Class main
 
     End Sub
 
-    Private Sub BackUpManagerToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BackUpManagerToolStripMenuItem.Click
+    Private Sub BackUpManagerToolStripMenuItem_Click(sender As Object, e As EventArgs)
         backupform.Show()
 
     End Sub
